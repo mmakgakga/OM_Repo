@@ -47,7 +47,7 @@ jobs:
         npm install
         npm run build --if-present
         npm run test --if-present
-        working-directory: Country-app
+      working-directory: Country-app
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v4
