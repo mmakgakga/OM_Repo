@@ -12,6 +12,7 @@ public class Entities
   {
     public Name Name { get; set; }
     public int Population { get; set; }
+    public string Region { get; set; }
     public List<string> Capital { get; set; }
     public Flags Flags { get; set; }
   }
